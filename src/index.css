@@ -1,13 +1,80 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+
+:root {
+  --primary: #03011c;
+  --secondary: #1c1847;
+  --accent: #0cb8c2;
+  --text: #fff;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Outfit", sans-serif;
+}
+
+
+body {
+  background-color: var(--text);
+}
+
+a{
+  text-decoration: none;
+  color: inherit;
+  line-height: 1;
+  cursor: pointer;
+}
+
+.btn{
+  background-color: var(--text);
+  color: var(--primary);
+  padding: 14px 25px;
+  font-size: 16px;
+  border-radius: 30px;
+  cursor: pointer;
+  border: 0;
+  outline: 0;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.btn:hover{
+  background-color: var(--accent);
+  color: var(--text);
+}
+
+.btn img{
+  width: 20px;
+  margin-left: 10px;
+}
+
+.container{
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.btn.dark-btn{
+  background: var(--secondary);
+  color: var(--text);
+}
+
+.btn.dark-btn:hover{
+  background: var(--accent);
+  color: var(--text);
+}
+
+
+/* ----- Media Query ----- */
+@media (max-width: 1200px) {
+  .container{
+    padding-right: 5%;
+    padding-left: 5%;
+  }
+  .btn{
+    padding: 14px 22px;
+  }
 }
