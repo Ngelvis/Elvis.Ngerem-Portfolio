@@ -37,11 +37,11 @@ const Contact = () => {
     return (
     <div className="contact">
         <div className="contact-col">
-            <h3>Send us a message <img src={msg_icon} alt="" /></h3>
+            <h3>Send a message <img src={msg_icon} alt="" /></h3>
             <p>
-                Feel free to reach out through the contact form or find my contact information
-                below. Your feedback, questions, and suggestions are important to me as I strive
-                to provide exceptional service. 
+              Feel free to reach out through the contact form or find my contact information
+              below. Your feedback, questions, and suggestions are important to me as I strive
+              to provide exceptional service. 
             </p>
             <ul>
                 <li><img src={mail_icon} alt="" />elvisngerem@gmail.com</li>
@@ -51,11 +51,11 @@ const Contact = () => {
         </div>
         <div className="contact-col">
             <form action="" onSubmit={onSubmit}>
-                <label htmlFor="">Your name</label>
+                <label htmlFor="name">Your name</label>
                 <input type="text" name='name' placeholder='Enter your name' required/>
 
-                <label htmlFor="">Phone Number</label>
-                <input type="tel" name="phone" placeholder='Enter your mobile number' required />
+                <label htmlFor="email">Your Email</label>
+                <input type="email" name="email" placeholder='Enter your email address' required />
 
                 <label htmlFor="">Write your message here</label>
                 <textarea name="message"  rows="6" placeholder='Enter your message' required></textarea>

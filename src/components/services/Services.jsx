@@ -10,22 +10,22 @@ import program_icon_3 from '../../assets/ui-icon.png'
 
 const Services = () => {
   return (
-    <div className='programs'>
-        <div className='program'>
+    <div className='services'>
+        <div className='service'>
             <img src={program_1} alt=''/>
             <div className='caption'>
                 <img src={program_icon_1} alt=''/>
                 <p>Web Development</p>
             </div>
         </div>
-        <div className='program'>
+        <div className='service'>
             <img src={program_2} alt=''/>
             <div className='caption'>
                 <img src={program_icon_2} alt=''/>
                 <p>Search Engine Optimization</p>
             </div>
         </div>
-        <div className='program'>
+        <div className='service'>
             <img src={program_3} alt=''/>
             <div className='caption'>
                 <img src={program_icon_3} alt=''/>

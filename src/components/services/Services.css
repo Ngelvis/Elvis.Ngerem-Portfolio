@@ -1,4 +1,4 @@
-.programs{
+.services{
     margin: 80px auto;
     width: 90%;
     display: flex;
@@ -13,13 +13,13 @@
     color: var(--text);
 }
 
-.programs img{
+.services img{
     width: 100%;
     border-radius: 10px;
     display: block;   
 }
 
-.program {
+.service {
     flex-basis: 31%;
     position: relative;
 }
@@ -48,7 +48,7 @@
     margin-bottom: 10px;
 }
 
-.program:hover .caption{
+.service:hover .caption{
     opacity: 1;
     padding-top: 0;
 }
@@ -57,11 +57,11 @@
 /* ----- Media Query ----- */
 
 @media (max-width: 650px) {
-    .programs{
+    .services{
         flex-direction: column;
     }
 
-    .program{
+    .service{
         flex-basis: 100%;
         margin: 20px;
     }

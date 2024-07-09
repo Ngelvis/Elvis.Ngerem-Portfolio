@@ -47,7 +47,11 @@
 .about p{
     color: var(--primary);
     margin-bottom: 15px;
+    text-align: justify;
+    text-justify: inter-word;
 }
+
+
 
 
 /* ----- Media Query ----- */

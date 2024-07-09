@@ -26,7 +26,7 @@ const About = () => {
           that involved designing and implementing user interfaces for embedded systems.
         </p>
 
-        <a href="#" className="btn dark-btn">More</a>
+        {/* <a href="/" className="btn dark-btn">More</a> */}
       </div>
     </div>
   )

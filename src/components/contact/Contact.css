@@ -28,6 +28,8 @@
 .contact-col p{
     max-width: 450px;
     list-style: 0.3;
+    text-align: justify;
+    text-justify: inter-word;
 }
 
 .contact-col ul li{

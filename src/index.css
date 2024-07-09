@@ -5,7 +5,7 @@
   --primary: #03011c;
   --secondary: #1c1847;
   --accent: #0cb8c2;
-  --text: #fff;
+  --text: #f4fdff;
 }
 
 *{
@@ -41,6 +41,8 @@ a{
   justify-content: center;
 
 }
+
+
 
 .btn:hover{
   background-color: var(--accent);
